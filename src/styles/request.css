@@ -1,0 +1,37 @@
+.serviceForm {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 80%;
+  height: 30%;
+}
+
+.field {
+  display: flex;
+  align-content: space-between;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 10%;
+  align-content: space-between;
+}
+
+.request__list {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%
+}
+
+.request__delete {
+  display: flex;
+  align-items: flex-end;
+}
+
+.request {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.request__description {
+  display: flex;
+  width: 60%;
+}
